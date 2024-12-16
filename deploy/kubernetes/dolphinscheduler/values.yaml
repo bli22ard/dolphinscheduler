@@ -68,7 +68,6 @@ postgresql:
   driverClassName: "org.postgresql.Driver"
   # -- The params for internal PostgreSQL
   params: "characterEncoding=utf8"
-
   persistence:
     # -- Set postgresql.persistence.enabled to true to mount a new volume for internal PostgreSQL
     enabled: false
