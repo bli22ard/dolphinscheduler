@@ -62,10 +62,13 @@ postgresql:
   postgresqlPassword: "root"
   # -- The database for internal PostgreSQL
   postgresqlDatabase: "dolphinscheduler"
+  # -- The database for MaxConnections
+  postgresqlMaxConnections: 300
   # -- The driverClassName for internal PostgreSQL
   driverClassName: "org.postgresql.Driver"
   # -- The params for internal PostgreSQL
   params: "characterEncoding=utf8"
+
   persistence:
     # -- Set postgresql.persistence.enabled to true to mount a new volume for internal PostgreSQL
     enabled: false
